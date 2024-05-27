@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    color: rgb(18, 77, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    font-size: 170%;
+}
+
+.apresentacao {
+    background-color: #939ca1;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    padding: 9px;
+    flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+
+.apresentacao-imagemI {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.apresentacao-imagemII {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 0;
+}
+
+#equipe {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.foto-equipe {
+    width: 40%;
+}
+
+.divisao-equipe {
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.nome-equipe {
+    color: red;
+    background-color: black;
+}
+
+.foto-equipee {
+    width: 43%;
+
+}
+
+footer {
+    background-color: black;
+    color: red;
+    display: grid;
+}
+
+header a {
+    color: red;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+}
+
+.album-lana {
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.album {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+
+
+.album1-ye {
+    width: 255px;
+
+}
+
+
+.album2-crybaby {
+    width: 20%;
+
+}
+
+
+.album3-racionais {
+    width: 18%;
+
+}
+
+
+
+.album4-cbj {
+
+    width: 20%;
+
+}
+
+
+
+.album5-tdsotm {
+
+    width: 20%;
+
+}
