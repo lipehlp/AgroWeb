@@ -155,3 +155,7 @@ section a {
     width: 20%;
 
 }
+
+.cana {
+    display: flex;
+}
