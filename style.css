@@ -68,7 +68,7 @@ body {
 }
 
 .nome-equipe {
-    color: red;
+    color: rgb(255, 255, 255);
     background-color: black;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: red;
     display: grid;
 }
