@@ -159,3 +159,8 @@ section a {
 .cana {
     display: flex;
 }
+
+@media screen and (win-width: 414px) {
+
+}
+    
