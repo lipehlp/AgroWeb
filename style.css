@@ -24,7 +24,6 @@ body {
 .apresentacao {
     background-color: #939ca1;
     color: rgb(0, 0, 0);
-    display: flex;
     align-items: stretch;
     padding: 9px;
     flex-direction: row-reverse;
@@ -36,10 +35,7 @@ body {
 
 
 .apresentacao-imagemI {
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 100%;
     padding: 24px 0;
 }
 
@@ -160,7 +156,18 @@ section a {
     display: flex;
 }
 
-@media screen and (win-width: 414px) {
+@media screen and (min-width: 1024px) {
+    .apresentacao {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row-reverse;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .apresentacao-imagemI{
+        width: 10%;
+    }
 
 }
     
