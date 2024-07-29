@@ -151,6 +151,7 @@ section a {
     display: flex;
 }
 
+
 @media screen and (min-width: 1024px) {
     .apresentacao {
         display: flex;
