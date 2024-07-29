@@ -97,13 +97,7 @@ section a {
 }
 
 .cafe {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-content: stretch;
-    flex-wrap: wrap;
-    align-items: baseline;
 }
 
 .produtos {
